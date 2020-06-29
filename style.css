@@ -21,8 +21,8 @@ padding: .5rem 2.5rem !important;
     color: white;
     font-family:sans-serif;
 }
-h1.gallery{
-    font-size: 2rem;
+.heading{
+    font-size: 1.7rem;
     padding:1rem 0;
 }
 .studio{
@@ -32,6 +32,16 @@ h1.gallery{
 .widthImg{
     height: 300px;
     width: 100%;
+}
+span.message{
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+.contact-intro .fa-envelope{
+    font-size: 1.25rem;
+}
+button[type='submit']{
+   margin-left: 45%;
 }
 /* .playCont{
     position: relative;
@@ -48,6 +58,10 @@ h1.gallery{
         margin-top: 1rem;
     }
     .studio{
-        padding: 0 1rem;
+        padding: 0 1rem 1.5rem;
     }
+    button[type='submit']{
+        margin-left: 30%;
+        margin-top: 1rem;
+     }
 }
