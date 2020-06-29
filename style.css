@@ -43,6 +43,38 @@ span.message{
 button[type='submit']{
    margin-left: 45%;
 }
+footer{
+    background-color: #000;
+    color: #fff;
+}
+.footHead h1{
+    font-size: 1.5rem;
+}
+footer span{
+    font-size: .85rem;
+    padding-left: 1rem;
+}
+.flexDiv{
+    margin-top: .8rem;
+}
+footer .footerLinks a{
+    display: block;
+    text-align: justify;
+    text-decoration: none;
+    color: #fff;
+    padding-top: .5rem;
+}
+footer .socialLinks a{
+    text-decoration: none;
+    color: #fff;
+    padding: .5rem;
+    font-size: 1.2rem;
+}
+#subscribeBtn{
+    margin-left:3rem;
+    width:fit-content;
+    padding: 1rem 4rem;
+}
 /* .playCont{
     position: relative;
 }
