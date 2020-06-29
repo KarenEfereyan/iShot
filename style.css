@@ -104,11 +104,14 @@ footer span{
          padding: 1rem 1.5rem;
      }
      .socialLink{
-         display: block;
-     }
+        display:inline-block;
+    }
+    #subscribeBtn{
+       display: block;
+   }
      .navbar-nav .nav-link{
-        font-size: .95rem;
-        font-family: sans-serif;
+       font-size: .95rem;
+       font-family: sans-serif;
     }
 
 }
