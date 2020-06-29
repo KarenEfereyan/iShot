@@ -23,6 +23,15 @@ padding: .5rem 2.5rem !important;
 }
 h1.gallery{
     font-size: 2rem;
+    padding:1rem 0;
+}
+.studio{
+    background-color: lightskyblue;
+    padding:1.5rem 2.5rem;
+}
+.widthImg{
+    height: 300px;
+    width: 100%;
 }
 /* .playCont{
     position: relative;
@@ -34,7 +43,8 @@ h1.gallery{
     z-index: 1000;
 } */
 @media only screen and (max-width:768px){
-    .galleryShow img{
+    .galleryShow img,
+    .studiosessions img{
         margin-top: 1rem;
     }
 }
