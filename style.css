@@ -2,6 +2,10 @@ body{
     font-family: serif, sans-serif;
     font-weight: 400;
     width: 100%;
+    font-size: 1rem;
+}
+.navbar-nav .nav-link{
+    font-size: .95rem;
 }
 .navbar-nav .active > .nav-link{
     color:red !important;
@@ -10,9 +14,6 @@ body{
     color: rgba(0,0,0,1);
     font-family: cursive;
 }
-/* .navbar{
-padding: .5rem 2.5rem !important;
-} */
 .jumbotron{
     background: url('./assets/bg.PNG');
     background-size: cover;
@@ -105,5 +106,9 @@ footer span{
      .socialLink{
          display: block;
      }
+     .navbar-nav .nav-link{
+        font-size: .95rem;
+        font-family: sans-serif;
+    }
 
 }
