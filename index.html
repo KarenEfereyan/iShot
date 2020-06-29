@@ -10,7 +10,18 @@
 
     <!--Font awesome cdn-->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
-    <title>iShot</title>
+
+    <!--Animate library-->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"> -->
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
+    
+  
+
+    <title>iShot Photogrpahy Template</title>
 
     <!--Personal stylesheet-->
     <link rel="stylesheet" href="./style.css">
@@ -25,7 +36,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto ">
             <li class="nav-item active">
-              <a class="nav-link boldLinks" href="index.html">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link boldLinks" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link boldLinks" href="#about">About</a>
@@ -45,7 +56,7 @@
       <!--Navbar end-->
 
       <!--Hero Jumobtron-->
-      <div class="jumbotron text-center" id="about">
+      <div class="jumbotron text-center animate__animated animate__fadeInUp" id="about">
         <h1>Finding beauty all around, one picture at a time</h1>
         <a class="btn btn-danger btn-lg mt-3" href="#" role="button">Book us now</a>
       </div>
@@ -58,13 +69,13 @@
       <div class="container-fluid">
       <div class="row galleryShow" id="gallery"> 
         <div class="col-sm-4 col-md-4 col-lg-4">
-            <img src="./assets/Rectangle 3.png" alt="" class="img-fluid">
+            <img src="./assets/Rectangle 3.png" alt="three model friends" class="img-fluid animate__animated animate__rotateInDownLeft">
         </div>
         <div class="col-sm-4 col-md-4 col-lg-4">
-            <img src="./assets//Rectangle 5.png" alt="" class="img-fluid">
+            <img src="./assets//Rectangle 5.png" alt="Man and lady with back to each other" class="img-fluid animate__animated animate__rotateInDownLeft">
         </div>
         <div class="col-sm-4 col-md-4 col-lg-4">
-            <img src="./assets/Rectangle 6.png" alt="" class="img-fluid">
+            <img src="./assets/Rectangle 6.png" alt="Happy convocation" class="img-fluid animate__animated animate__rotateInDownLeft">
         </div>
     </div>
         </div>
@@ -89,30 +100,30 @@
           <div class="row studiosessions"> 
             <div class="col-sm-4 col-md-4 col-lg-4">
                 <img src="./assets/Group 237.png" alt="Elderly man and wife" 
-                class="img-fluid">
+                class="img-fluid animate__animated animate__fadeInLeft ">
             </div>
             <div class="col-sm-4 col-md-4 col-lg-4">
                 <img src="./assets/Group 238.png" alt="Woman in a photoshoot" 
-                class="img-fluid">
+                class="img-fluid animate__animated animate__fadeInRight">
             </div>
             <div class="col-sm-4 col-md-4 col-lg-4">
                 <img src="./assets/Group 236.png" alt="Baby with tongue out" 
-                class="img-fluid">
+                class="img-fluid animate__animated animate__fadeInUp">
             </div>
         </div>
         <!--Studio section second row-->
         <div class="row studiosessions mt-3"> 
           <div class="col-sm-4 col-md-4 col-lg-4">
               <img src="./assets/Rectangle 48.png" alt="husband and wife celebrating birthday"
-               class="img-fluid widthImg">
+               class="img-fluid widthImg animate__animated animate__fadeInRight">
           </div>
           <div class="col-sm-4 col-md-4 col-lg-4">
               <img src="./assets/Rectangle 49.png" alt="three friends lying o
-            n the floor with legs raised" class="img-fluid widthImg">
+            n the floor with legs raised" class="img-fluid widthImg animate__animated animate__fadeInLeft">
           </div>
           <div class="col-sm-4 col-md-4 col-lg-4">
               <img src="./assets/Rectangle 50.png" alt="boy with paint on his body"
-               class="img-fluid widthImg">
+               class="img-fluid widthImg animate__animated animate__fadeInRight">
           </div>
       </div>
             </div>
@@ -131,7 +142,7 @@
            </div>
 
            <!--Main form-->
-           <form class="needs-validation" novalidate>
+           <form class="mt-3">
             <div class="form-row">
               <div class="col-md-6 mb-3">
                 <label for="fullName">Full name</label>
@@ -155,6 +166,11 @@
               </div>
             </div>
 
+            <div class="row">
+              <div class="col-sm-12">
+                <textarea name="message" class="form-control mb-3" placeholder="Your Message Here..."  cols="30" rows="10"></textarea>
+              </div>
+
             <button class="btn btn-primary text-uppercase p-3" type="submit">Send Message</button>
           </form>
            <!--Form end-->
@@ -169,7 +185,7 @@
            <div class="row footerRow">
               <div class="col-lg-2 mt-5">
                 <img src="./assets/iShot.png.crdownload" alt="iShot brand logo">
-                <p class="pt-2">Finding beauty all around, one picture at a time</p>
+                <p class="pt-3">Finding beauty all around, one picture at a time</p>
               </div>
               <div class="col-lg-3">
                 <div class="footHead">
@@ -220,7 +236,7 @@
           </footer>
          <!--Footer end-->
    
-
+        
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
