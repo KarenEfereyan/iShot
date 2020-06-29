@@ -46,9 +46,13 @@ button[type='submit']{
 footer{
     background-color: #000;
     color: #fff;
+    padding: 2.5rem 3rem;
 }
 .footHead h1{
     font-size: 1.5rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
 }
 footer span{
     font-size: .85rem;
@@ -57,21 +61,20 @@ footer span{
 .flexDiv{
     margin-top: .8rem;
 }
-footer .footerLinks a{
+ .footerLink{
     display: block;
     text-align: justify;
     text-decoration: none;
     color: #fff;
     padding-top: .5rem;
 }
-footer .socialLinks a{
+.socialLink {
     text-decoration: none;
     color: #fff;
     padding: .5rem;
     font-size: 1.2rem;
 }
 #subscribeBtn{
-    margin-left:3rem;
     width:fit-content;
     padding: 1rem 4rem;
 }
@@ -96,4 +99,11 @@ footer .socialLinks a{
         margin-left: 30%;
         margin-top: 1rem;
      }
+     footer{
+         padding: 1rem 1.5rem;
+     }
+     .socialLink{
+         display: block;
+     }
+
 }
